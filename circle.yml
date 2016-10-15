@@ -11,8 +11,6 @@
       - ~/.android
       - ~/android
 
-    override:
-      - source scripts/environmentSetup.sh && getAndroidSDK
 
   test:
     override:
