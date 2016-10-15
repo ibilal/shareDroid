@@ -22,7 +22,8 @@
           parallel: true
 
     #- ./gradlew connectedAndroidTest:
+    #    timeout: 360
 
       # wait for it to have booted
       - circle-android wait-for-boot
-        timeout: 360
+
