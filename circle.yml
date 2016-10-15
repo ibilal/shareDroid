@@ -13,5 +13,5 @@
 
   test:
     override:
-      - (./gradlew assemble):
+      #- (./gradlew assemble):
         timeout: 360
