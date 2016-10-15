@@ -1,0 +1,27 @@
+  general:
+    artifacts:
+      - ./app/build/outputs/apk/
+
+  machine:
+    environment:
+      ANDROID_HOME: /usr/local/android-sdk-linux
+
+  dependencies:
+    cache_directories:
+      - ~/.android
+      - ~/android
+
+
+  test:
+    override:
+      # start the emulator
+      - emulator -avd circleci-android22 -no-audio -no-window:
+          background: true
+          parallel: true
+
+    #- ./gradlew connectedAndroidTest:
+    #    timeout: 360
+
+      # wait for it to have booted
+      - circle-android wait-for-boot
+
