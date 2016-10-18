@@ -1,11 +1,13 @@
+
+/build/
+*.iml
+
+# Gradle files
+
+
 .idea/
 app/build/
-*.iml
-.idea/workspace.xml
-.idea/libraries
 
 
 # Gradle files
 .gradle/
-build/
-
