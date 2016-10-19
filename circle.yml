@@ -7,15 +7,18 @@
       ANDROID_HOME: /usr/local/android-sdk-linux
 
   dependencies:
+
+    pre:
+      - chmod +x ./scripts/environmmentSetup.sh
+      - ./scripts/environmentSetup.sh
+
     cache_directories:
       - ~/.android
       - ~/android
 
-    override:
-      - chmod +x ./scripts/environmmentSetup.sh
-      - ./scripts/environmentSetup.sh
 
   test:
+
     override:
 
       # start the emulator
