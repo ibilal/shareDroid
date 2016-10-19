@@ -9,7 +9,7 @@
   dependencies:
 
     pre:
-      - chmod +x ./scripts/environmmentSetup.sh
+      - chmod +x ./scripts/environmentSetup.sh
       - ./scripts/environmentSetup.sh
 
     cache_directories:
