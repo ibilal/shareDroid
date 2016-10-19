@@ -8,12 +8,13 @@ function getAndroidSDK {
 
   if [ ! -e $DEPS ]; then
     echo y | android update sdk -u -a -t android-19 &&
+    echo y | android update sdk --no-ui --all --filter "android-24" &&
     echo y | android update sdk -u -a -t platform-tools &&
-    echo y | android update sdk -u -a -t build-tools-24.0.0 &&
+    echo y | android update sdk --no-ui --filter build-tools-24.0.0 &&
     echo y | android update sdk -u -a -t "extra-android-m2repository" &&
     echo y | android update sdk -u -a -t "extra-android-support" &&
     echo y | android update sdk -u -a -t "extra-google-m2repository" &&
-    echo no | android create avd -n testAVD -f -t android-21 --abi google_apis/armeabi-v7a &&
+    echo no | android create avd -n testAVD -f -t android-24 --abi google_apis/armeabi-v7a &&
     touch $DEPS
   fi
 }
