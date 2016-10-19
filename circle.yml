@@ -12,17 +12,16 @@
       - ~/android
 
     override:
-      - chmod +x scripts/environmmentSetup.sh
+      - chmod +x ./scripts/environmmentSetup.sh
       - ./scripts/environmentSetup.sh
 
   test:
     override:
+
       # start the emulator
       - emulator -avd circleci-android22 -no-audio -no-window:
           background: true
           parallel: true
-
-
 
     #- ./gradlew connectedAndroidTest:
     #    timeout: 360
