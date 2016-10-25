@@ -4,7 +4,7 @@
 
   machine:
     environment:
-      ANDROID_HOME: /usr/local/android/sdk
+      ANDROID_HOME: /usr/local/android-sdk-linux
 
   dependencies:
 
