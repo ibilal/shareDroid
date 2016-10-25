@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NugShare2</string>
+    <string name="loading">Loading...</string>
+    <string name="signed">Signed in format</string>
+</resources>

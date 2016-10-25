@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "650768374307",
+    "firebase_url": "https://nugshare-10d5d.firebaseio.com",
+    "project_id": "nugshare-10d5d",
+    "storage_bucket": "nugshare-10d5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650768374307:android:6fbe999173c6cbdf",
+        "android_client_info": {
+          "package_name": "com.mbeez.nugshare2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650768374307-f1cub2d1vshbi7fghfui56ip2mn7s2ef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mbeez.nugshare2",
+            "certificate_hash": "0F81BD79CA869E494898263511D2008D97D35ECB"
+          }
+        },
+        {
+          "client_id": "650768374307-euc3pgneqcnesftaq93qknnfb214i2si.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHhpRW6IAf4fZzNSS5WerXkWtoLZXx_CU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650768374307-euc3pgneqcnesftaq93qknnfb214i2si.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
