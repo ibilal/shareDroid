@@ -4,14 +4,13 @@
 
   machine:
     environment:
-      ANDROID_HOME: /Users/imanbilal/Library/Android/sdk
-      #ANDROID_HOME: /usr/local/android/sdk
+      ANDROID_HOME: /usr/local/android/sdk
 
   dependencies:
 
-    pre:
-      - chmod +x ./scripts/environmentSetup.sh
-      - ./scripts/environmentSetup.sh
+    #pre:
+    #  - chmod +x ./scripts/environmentSetup.sh
+    #  - ./scripts/environmentSetup.sh
 
     cache_directories:
       - ~/.android
